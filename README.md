@@ -2,7 +2,7 @@
 
 # 工作支持
 
-这项工作由澳门理工大学应用科学学院[王荣胜](https://github.com/WangRongsheng) 、段耀菲完成，指导老师为檀韬副教授、彭教授。
+这项工作由澳门理工大学应用科学学院[王荣胜](https://github.com/WangRongsheng) 、[段耀菲](https://github.com/IsBaSO4) 完成，指导老师为檀韬副教授、[彭祥佑](http://www.patrickpang.net/) 。
 
 # 项目致谢
 
