@@ -33,10 +33,10 @@
 
 # 项目致谢
 
-1. [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) 为我们提供了基础的代码参考和实现；
-2. [XrayGPT](https://github.com/mbzuai-oryx/XrayGPT) 为我们这个项目提供了研发思路；
+1. [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供了基础的代码参考和实现；
+2. [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)和[XrayGPT](https://github.com/mbzuai-oryx/XrayGPT)为我们这个项目提供了研发思路；
 3. ChatGPT生成了高质量的中文版X光检查报告以支持XrayGLM训练；
-4. [gpt_academic](https://github.com/binary-husky/gpt_academic) 为文档翻译提供了多线程加速；
+4. [gpt_academic](https://github.com/binary-husky/gpt_academic)为文档翻译提供了多线程加速；
 
 ![](./assets/images/mpu.png)
 
