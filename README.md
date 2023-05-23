@@ -1,5 +1,36 @@
 # XrayGLM
 
+ <p align="center">
+      <a href='https://github.com/WangRongsheng/XrayGLM'>
+            <img src='https://img.shields.io/badge/Project-Page-Green'>
+      </a>
+      <a href='https://github.com/WangRongsheng/XrayGLM'>
+            <img src='https://img.shields.io/badge/Paper-Arxiv-red'>
+      </a>
+      <a href='https://github.com/WangRongsheng/XrayGLM'>
+            <img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'>
+      </a>
+      <a href="https://github.com/WangRongsheng/XrayGLM">
+        <img alt="GitHub Contributors" src="https://colab.research.google.com/assets/colab-badge.svg" />
+      </a>
+      <a href="https://github.com/WangRongsheng/XrayGLM/blob/main/LICENSE">
+        <img alt="GitHub Contributors" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" />
+      </a>
+      </br>
+      <a href="https://github.com/WangRongsheng/XrayGLM/graphs/contributors">
+        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/WangRongsheng/XrayGLM" />
+      </a>
+      <a href="https://github.com/WangRongsheng/XrayGLM/issues">
+        <img alt="Issues" src="https://img.shields.io/github/issues/WangRongsheng/XrayGLM?color=0088ff" />
+      </a>
+      <a href="https://github.com/WangRongsheng/XrayGLM/pulls">
+        <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/WangRongsheng/XrayGLM?color=0088ff" />
+      </a>
+      <a href=href="https://github.com/kaixindelele/XrayGLM/stargazers">
+        <img src="https://img.shields.io/github/stars/WangRongsheng/XrayGLM?color=ccf">
+      </a>
+  </p>
+
 # 项目致谢
 
 1. [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) 为我们提供了基础的代码参考和实现；
@@ -9,7 +40,7 @@
 
 这项工作由[澳门理工大学应用科学学院](https://www.mpu.edu.mo/esca/zh/index.php)硕士生[王荣胜](https://github.com/WangRongsheng) 、[段耀菲](https://github.com/IsBaSO4) 、[李俊蓉](https://github.com/lijunrong0815)完成，同时这项工作受到[檀韬](https://scholar.google.com/citations?hl=zh-CN&user=lLg3WRkAAAAJ)副教授、[彭祥佑](http://www.patrickpang.net/)老师的帮助支持。
 
-*特别鸣谢：[USTC-PhD Yongle Luo](https://github.com/kaixindelele) 提供了有3000美金的OpenAI账号，帮助我们完成大量的文档翻译资金消耗
+*特别鸣谢：[USTC-PhD Yongle Luo](https://github.com/kaixindelele) 提供了有3000美金的OpenAI账号，帮助我们完成大量的文档翻译
 
 # 免责声明
 
