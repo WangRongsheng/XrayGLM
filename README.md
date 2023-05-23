@@ -28,4 +28,7 @@
 }
 ```
 
+# 使用许可
+
+此存储库遵循[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) ，请参阅许可条款。
 
