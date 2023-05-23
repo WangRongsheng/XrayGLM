@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: XrayGLM
+message: >-
+  If you use this software, please cite it using these
+  metadata.
+type: software
+authors:
+  - given-names: Rongsheng Wang
+  - given-names: Yaofei Duan
+  - given-names: Junrong Li
+  - given-names: Patrick Pang
+  - given-names: Tao Tan
+repository-code: 'https://github.com/WangRongsheng/XrayGLM'
+url: 'https://github.com/WangRongsheng/XrayGLM'
+abstract: The first Chinese Medical Multimodal Model that Chest Radiographs Summarization.
+license: CC BY-NC-SA 4.0
