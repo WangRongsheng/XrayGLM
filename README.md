@@ -42,7 +42,7 @@
 
 这项工作由[澳门理工大学应用科学学院](https://www.mpu.edu.mo/esca/zh/index.php)硕士生[王荣胜](https://github.com/WangRongsheng) 、[段耀菲](https://github.com/IsBaSO4) 、[李俊蓉](https://github.com/lijunrong0815)完成，同时这项工作受到[檀韬](https://scholar.google.com/citations?hl=zh-CN&user=lLg3WRkAAAAJ)副教授、[彭祥佑](http://www.patrickpang.net/)老师的帮助支持。
 
-*特别鸣谢：[USTC-PhD Yongle Luo](https://github.com/kaixindelele) 提供了有3000美金的OpenAI账号，帮助我们完成大量的文档翻译
+*特别鸣谢：[USTC-PhD Yongle Luo](https://github.com/kaixindelele) 提供了有3000美金的OpenAI账号，帮助我们完成大量的X光报告翻译工作
 
 # 免责声明
 
