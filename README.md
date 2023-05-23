@@ -1,6 +1,10 @@
 # XrayGLM
 
-# 参考
+# 支持
 
-1. https://github.com/THUDM/VisualGLM-6B
-2. https://github.com/mbzuai-oryx/XrayGPT
+这项工作由澳门理工大学应用科学学院王荣胜完成，指导老师为檀韬副教授。
+
+# 致谢
+
+1. [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) 为我们提供了基础的代码参考和实现；
+2. [XrayGPT](https://github.com/mbzuai-oryx/XrayGPT) 为我们这个项目提供了研发思路以及数据集；
