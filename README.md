@@ -19,7 +19,7 @@
 
 ```bash
 @misc{wang2023XrayGLM,
-      title={XrayGLM: Chest Radiographs Summarization using Medical Vision-Language Models}, 
+      title={XrayGLM: The first Chinese Medical Multimodal Model that Chest Radiographs Summarization}, 
       author={Rongsheng Wang, Yaofei Duan, Junrong Li, Patrick Pang and Tao Tan},
       year={2023},
       publisher = {GitHub},
@@ -27,3 +27,5 @@
       howpublished = {\url{https://github.com/WangRongsheng/XrayGLM}},
 }
 ```
+
+
