@@ -33,9 +33,15 @@
   
 # 数据集
 
-- [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0/)是一个公开可用的胸部X光片数据集，包括377,110张图像和227,827个相关报告。该数据集已进行去敏。
-- [OpenI](https://openi.nlm.nih.gov/faq#collection)是来自印第安纳大学医院的胸部X光片图像数据集，包括6,459张图像和3,955个报告。
+- [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0/)是一个公开可用的胸部X光片数据集，包括377,110张图像和227,827个相关报告。
+- [OpenI](https://openi.nlm.nih.gov/faq#collection)是一个来自印第安纳大学医院的胸部X光片数据集，包括6,459张图像和3,955个报告。
 
+在上述工作中，报告信息都为非结构化的，不利于科学研究。为了生成合理的医学报告，我们对两个数据集进行了预处理，并最终得到了可以用于训练的**英文报告**。除此之外，为了更好的支持中文社区发展，借助ChatGPT的能力，我们将英文报告进行了中文翻译，并最终形成了可用于训练的数据集。
+
+|数据集|数量|下载链接|
+|:-|:-|:-|
+|MIMIC-CXR-zh|-|-|
+|OpenI-zh|6423|[相关报告]() 、[X光影像]()|
 # 项目致谢
 
 1. [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供了基础的代码参考和实现；
