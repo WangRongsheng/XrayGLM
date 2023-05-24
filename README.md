@@ -30,6 +30,11 @@
         <img src="https://img.shields.io/github/stars/WangRongsheng/XrayGLM?color=ccf">
       </a>
   </p>
+  
+# 数据集
+
+- [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0/)是一个公开可用的胸部X光片数据集，包括377,110张图像和227,827个相关报告。该数据集已进行去敏。
+- [OpenI](https://openi.nlm.nih.gov/faq#collection)是来自印第安纳大学医院的胸部X光片图像数据集，包括6,459张图像和3,955个报告。
 
 # 项目致谢
 
