@@ -31,6 +31,10 @@
       </a>
   </p>
   
+# 本文贡献
+
+![](./assets/images/xrayglm.png)
+  
 # 数据集
 
 - [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0/)是一个公开可用的胸部X光片数据集，包括377,110张图像和227,827个相关报告。
@@ -42,6 +46,7 @@
 |:-|:-|:-|
 |MIMIC-CXR-zh|-|-|
 |OpenI-zh|6423|[相关报告]() 、[X光影像]()|
+
 # 项目致谢
 
 1. [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供了基础的代码参考和实现；
