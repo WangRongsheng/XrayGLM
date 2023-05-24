@@ -1,0 +1,22 @@
+[
+    {"img": "fewshot-data/2p.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是蒙蒙细雨。"},
+    {"img": "fewshot-data/pig.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是是虚化的。"},
+    {"img": "fewshot-data/meme.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是蓝色的木质地板。"},
+    {"img": "fewshot-data/passport.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是棕黄色木质桌子。"},
+    {"img": "fewshot-data/tower.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是黄昏的天空、云彩和繁华的城市高楼。"},
+    {"img": "fewshot-data/rub.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是太阳、大树、蓝天白云。"},
+    {"img": "fewshot-data/push.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是蓝天和沙漠。"},
+    {"img": "fewshot-data/traf.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是城市街道。"},
+    {"img": "fewshot-data/music.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是一个音乐混音器。"},
+    {"img": "fewshot-data/pattern.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是小区的楼房和街道。"},
+    {"img": "fewshot-data/rou.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是大理石桌子和一个盘子。"},
+    {"img": "fewshot-data/katong.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是绿色的草地。"},
+    {"img": "fewshot-data/man.jpg", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是城市的街道和高楼。"},
+    {"img": "fewshot-data/kobe.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是虚化的观众席。"},
+    {"img": "fewshot-data/panda.jpg", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是纯白的。"},
+    {"img": "fewshot-data/titan.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是一座雕像。"},
+    {"img": "fewshot-data/woman.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是纯蓝的。"},
+    {"img": "fewshot-data/ghost.jpg", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是一个房间。"},
+    {"img": "fewshot-data/justice.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是天空和阳光。"},
+    {"img": "fewshot-data/tianye.png", "prompt": "这张图片的背景里有什么内容？", "label": "这张图片的背景是金黄的田野。"}
+]
