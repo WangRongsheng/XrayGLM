@@ -45,7 +45,7 @@
 |数据集|数量|下载链接|
 |:-|:-|:-|
 |MIMIC-CXR-zh|-|-|
-|OpenI-zh|6,423|[诊疗报告](./data/Xray/openi-zh.json) 、[X光影像]()|
+|OpenI-zh|6,423|[诊疗报告](./data/Xray/openi-zh.json) 、[X光影像](https://pan.baidu.com/s/13GBsDMKf6xBZBSHpoWH_EA?pwd=k9sh)|
 
 # 项目致谢
 
