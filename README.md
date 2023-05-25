@@ -67,6 +67,12 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTrans
 ```
 2. 模型推理
 
+CLI推理：
+```python
+python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04 --prompt_zh '详细描述这张X光影像'
+```
+更多[参数](https://github.com/WangRongsheng/XrayGLM/blob/main/cli_demo.py#L16)
+
 # 效果展示
 
 |X光影像|诊疗报告(医生)|XrayGLM|
