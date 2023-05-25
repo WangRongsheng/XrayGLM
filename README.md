@@ -36,6 +36,7 @@
 ![](./assets/images/xrayglm.png)
 
 - 借助ChatGPT以及公开的数据集，我们构造了一个`X光影像-诊断报告`对的医学多模态数据集；
+- 我们将构建的中文胸部X光片诊断数据集在[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)进行微调训练，并开放了部分训练权重用于学术研究；
   
 # 数据集
 
