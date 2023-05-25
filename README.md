@@ -70,9 +70,14 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTrans
 ```
 2. 模型推理
 
+|模型权重|下载链接|
+|:-|:-|
+|checkpoints-XrayGLM-300|-|
+|checkpoints-XrayGLM-3000|-|
+
 CLI推理：
 ```python
-python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04 --prompt_zh '详细描述这张胸部X光片的诊断结果'
+python cli_demo.py --from_pretrained checkpoints/checkpoints-XrayGLM-3000 --prompt_zh '详细描述这张胸部X光片的诊断结果'
 ```
 更多[参数](https://github.com/WangRongsheng/XrayGLM/blob/main/cli_demo.py#L16)
 
