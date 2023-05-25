@@ -1,0 +1,6 @@
+SwissArmyTransformer>=0.3.6
+torch>1.10.0
+torchvision
+transformers>=4.27.1
+mdtex2html
+gradio
