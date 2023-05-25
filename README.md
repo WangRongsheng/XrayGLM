@@ -1,4 +1,4 @@
-# XrayGLM
+最近，通用领域的大语言模型 (LLM)，例如 ChatGPT，在遵循指令和产生类似人类响应方面取得了显著的成功，这种成功间接促进了多模态大模型的研究和发展，如通用领域的多模态大模型[MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)、[mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl)、[Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT)和[LLaVA](https://github.com/haotian-liu/LLaVA) ，然而，此类多模态大模型却很少出现在医学领域的研究中，阻碍了相关研究发展。[visual-med-alpaca](https://github.com/cambridgeltl/visual-med-alpaca)虽然在医学多模态大模型方面做出了一些很有成效的工作，然而其数据为英文诊断报告，不利于促进中文领域医学多模态大模型的研究发展。为此，我们开发了XrayGLM以解决上述问题。XrayGLM在医学影像诊断和多轮交互对话上显示出了非凡的潜力。
 
  <p align="center">
       <a href='https://github.com/WangRongsheng/XrayGLM'>
