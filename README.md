@@ -69,7 +69,7 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTrans
 
 CLI推理：
 ```python
-python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04 --prompt_zh '详细描述这张X光影像'
+python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04 --prompt_zh '详细描述这张胸部X光片的诊断结果'
 ```
 更多[参数](https://github.com/WangRongsheng/XrayGLM/blob/main/cli_demo.py#L16)
 
