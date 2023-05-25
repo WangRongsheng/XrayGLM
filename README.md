@@ -47,6 +47,25 @@
 |MIMIC-CXR-zh|-|-|
 |OpenI-zh|6,423|[诊疗报告](./data/Xray/openi-zh.json) 、[X光影像](https://pan.baidu.com/s/13GBsDMKf6xBZBSHpoWH_EA?pwd=k9sh)|
 
+# 快速上手
+
+1. 安装环境
+```bash
+# 安装依赖
+pip install -r requirements.txt
+# 国内换源安装依赖
+pip install -i https://mirrors.aliyun.com/pypi/simple/ -r requirements.txt
+```
+此时默认会安装`deepspeed`库（支持`sat`库训练），此库对于模型推理并非必要，同时部分`Windows`环境安装此库时会遇到问题。 如果想绕过`deepspeed`安装，我们可以将命令改为：
+```bash
+# 安装依赖
+pip install -i https://mirrors.aliyun.com/pypi/simple/ -r requirements_wo_ds.txt
+# 安装SwissArmyTransformer
+pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTransformer>=0.3.6"
+```
+2. 模型推理
+
+
 # 项目致谢
 
 1. [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供了基础的代码参考和实现；
