@@ -1,3 +1,5 @@
+## 介绍
+
 最近，通用领域的大语言模型 (LLM)，例如 ChatGPT，在遵循指令和产生类似人类响应方面取得了显著的成功，这种成功间接促进了多模态大模型的研究和发展，如通用领域的多模态大模型[MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)、[mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl)、[Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT)和[LLaVA](https://github.com/haotian-liu/LLaVA) ，然而，此类多模态大模型却很少出现在医学领域的研究中，阻碍了相关研究发展。[visual-med-alpaca](https://github.com/cambridgeltl/visual-med-alpaca)虽然在医学多模态大模型方面做出了一些很有成效的工作，然而其数据为英文诊断报告，不利于促进中文领域医学多模态大模型的研究发展。为此，我们开发了XrayGLM以解决上述问题。XrayGLM在医学影像诊断和多轮交互对话上显示出了非凡的潜力。
 
  <p align="center">
@@ -31,14 +33,14 @@
       </a>
   </p>
   
-# 本文贡献
+## 本文贡献
 
 ![](./assets/images/xrayglm.png)
 
 - 借助ChatGPT以及公开的数据集，我们构造了一个`X光影像-诊断报告`对的医学多模态数据集；
 - 我们将构建的中文胸部X光片诊断数据集在[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)进行微调训练，并开放了部分训练权重用于学术研究；
   
-# 数据集
+## 数据集
 
 - [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0/)是一个公开可用的胸部X光片数据集，包括377,110张图像和227,827个相关报告。
 - [OpenI](https://openi.nlm.nih.gov/faq#collection)是一个来自印第安纳大学医院的胸部X光片数据集，包括6,459张图像和3,955个报告。
@@ -50,7 +52,7 @@
 |MIMIC-CXR-zh|-|-|
 |OpenI-zh|6,423|[诊疗报告](./data/Xray/openi-zh.json) 、[X光影像](https://pan.baidu.com/s/13GBsDMKf6xBZBSHpoWH_EA?pwd=k9sh)|
 
-# 快速上手
+## 快速上手
 
 1. 安装环境
 ```bash
@@ -74,7 +76,7 @@ python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04 --
 ```
 更多[参数](https://github.com/WangRongsheng/XrayGLM/blob/main/cli_demo.py#L16)
 
-# 效果展示
+## 效果展示
 
 诊断：
 |X光影像|诊疗报告(医生)|XrayGLM|
@@ -104,7 +106,7 @@ python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04 --
 >> XrayGLM：饮食应该健康，均衡。建议增加蛋白质的摄入量，因为蛋白质有助于维持肌肉和骨骼的健康。多食用蔬菜、水果、全谷物以及健康的脂肪来源如橄榄油、鱼类等可以帮助获得足够的维生素和矿物质。此外，避免过度饮酒或吸烟，这些习惯可能会对心脏健康产生负面影响。
 ```
 
-# 项目致谢
+## 项目致谢
 
 1. [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供了基础的代码参考和实现；
 2. [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)为我们这个项目提供了研发思路；
@@ -118,11 +120,11 @@ python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04 --
 
 *特别鸣谢：[USTC-PhD Yongle Luo](https://github.com/kaixindelele) 提供了有3000美金的OpenAI账号，帮助我们完成大量的X光报告翻译工作
 
-# 免责声明
+## 免责声明
 
 本项目相关资源仅供学术研究之用，严禁用于商业用途。使用涉及第三方代码的部分时，请严格遵循相应的开源协议。模型生成的内容受模型计算、随机性和量化精度损失等因素影响，本项目无法对其准确性作出保证。即使本项目模型输出符合医学事实，也不能被用作实际医学诊断的依据。对于模型输出的任何内容，本项目不承担任何法律责任，亦不对因使用相关资源和输出结果而可能产生的任何损失承担责任。
 
-# 项目引用
+## 项目引用
 
 如果你使用了本项目的模型，数据或者代码，请声明引用：
 
@@ -137,7 +139,7 @@ python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04 --
 }
 ```
 
-# 使用许可
+## 使用许可
 
 此存储库遵循[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) ，请参阅许可条款。
 
