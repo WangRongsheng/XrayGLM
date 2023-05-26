@@ -60,7 +60,7 @@
 
 ## 快速上手
 
-1. 安装环境
+### 1.安装环境
 ```bash
 # 安装依赖
 pip install -r requirements.txt
@@ -74,7 +74,7 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ -r requirements_wo_ds.txt
 # 安装SwissArmyTransformer
 pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTransformer>=0.3.6"
 ```
-2. 模型推理
+### 2.模型推理
 
 |模型权重|下载链接|
 |:-|:-|
@@ -86,6 +86,23 @@ CLI推理：
 python cli_demo.py --from_pretrained checkpoints/checkpoints-XrayGLM-3000 --prompt_zh '详细描述这张胸部X光片的诊断结果'
 ```
 更多[参数](https://github.com/WangRongsheng/XrayGLM/blob/main/cli_demo.py#L16)
+
+### 3.模型训练（复现XrayGLM）
+
+> 我们所使用的硬件为：四卡A100 80GB
+
+- （1）准备[诊疗报告(中文)](./data/Xray/openi-zh.json)和[X光影像](https://pan.baidu.com/s/13GBsDMKf6xBZBSHpoWH_EA?pwd=k9sh)在`data/Xray`文件夹下；
+- （2）开始训练：
+```bash
+# 设置CUDA变量，主要是为了解决有时候直接训练而出现无法正确加载到显卡问题
+export CUDA_VISIBLE_DEVICES=0,1,2,3
+
+# 开始训练
+bash finetune_XrayGLM.sh
+```
+这里的复现过程非常简单，主要是很多过程我们都为大家准备好了，大家可以随时复现一个自己的`XrayGLM`。
+
+### 4.模型训练（通用）
 
 ## 效果展示
 
