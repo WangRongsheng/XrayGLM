@@ -20,8 +20,8 @@
       <a href="https://colab.research.google.com/drive/1aR8SSaseyprsxnor-gDyMo96V9jD7iGP?usp=sharing">
         <img alt="GitHub Contributors" src="https://colab.research.google.com/assets/colab-badge.svg" />
       </a>
-      <a href="https://github.com/WangRongsheng/XrayGLM/blob/main/LICENSE">
-        <img alt="GitHub Contributors" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" />
+      <a href='https://huggingface.co/wangrongsheng'>
+        <img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'>
       </a>
       </br>
       <a href="https://github.com/WangRongsheng/XrayGLM/graphs/contributors">
@@ -33,11 +33,24 @@
       <a href="https://github.com/WangRongsheng/XrayGLM/pulls">
         <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/WangRongsheng/XrayGLM?color=0088ff" />
       </a>
-      <a href=href="https://github.com/kaixindelele/XrayGLM/stargazers">
+      <a href=href="https://github.com/WangRongsheng/XrayGLM/stargazers">
         <img src="https://img.shields.io/github/stars/WangRongsheng/XrayGLM?color=ccf">
       </a>
+      <a href=href="https://github.com/WangRongsheng/XrayGLM">
+        <img src="https://img.shields.io/github/repo-size/WangRongsheng/XrayGLM.svg?style=flat-square">
+      </a>
+      </br>
+      <a href=href="https://github.com/WangRongsheng/XrayGLM">
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=https://github.com/WangRongsheng/XrayGLM">
+      </a>
+      <a href=href="https://github.com/WangRongsheng/XrayGLM">
+        <img src="https://img.shields.io/github/last-commit/WangRongsheng/XrayGLM">
+      </a>
+      <a href="https://github.com/WangRongsheng/XrayGLM/blob/main/LICENSE">
+        <img alt="GitHub Contributors" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" />
+      </a>
   </p>
-  
+
 ## 本文贡献
 
 ![](./assets/images/xrayglm.png)
