@@ -89,7 +89,10 @@ python cli_demo.py --from_pretrained checkpoints/checkpoints-XrayGLM-3000 --prom
 
 ### 3.模型训练（复现XrayGLM）
 
-> 我们所使用的硬件为：四卡A100 80GB
+<details>
+  <summary>硬件资源</summary>
+  <p>* 实验在A100 (4X, 80GB)上进行</p>
+</details>
 
 - （1）准备[诊疗报告(中文)](./data/Xray/openi-zh.json)和[X光影像](https://pan.baidu.com/s/13GBsDMKf6xBZBSHpoWH_EA?pwd=k9sh)在`data/Xray`文件夹下；
 - （2）开始训练：
