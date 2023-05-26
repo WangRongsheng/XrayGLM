@@ -17,7 +17,7 @@
       <a href='https://github.com/WangRongsheng/XrayGLM'>
             <img src='https://img.shields.io/badge/Paper-Arxiv-red'>
       </a>
-      <a href="https://github.com/WangRongsheng/XrayGLM">
+      <a href="https://colab.research.google.com/drive/1aR8SSaseyprsxnor-gDyMo96V9jD7iGP?usp=sharing">
         <img alt="GitHub Contributors" src="https://colab.research.google.com/assets/colab-badge.svg" />
       </a>
       <a href="https://github.com/WangRongsheng/XrayGLM/blob/main/LICENSE">
@@ -85,6 +85,8 @@ CLI推理：
 python cli_demo.py --from_pretrained checkpoints/checkpoints-XrayGLM-3000 --prompt_zh '详细描述这张胸部X光片的诊断结果'
 ```
 更多[参数](https://github.com/WangRongsheng/XrayGLM/blob/main/cli_demo.py#L16)
+
+如果您是**Google Colab Pro**会员，请可以直接在Colab中运行XrayGLM：<a href="https://colab.research.google.com/drive/1aR8SSaseyprsxnor-gDyMo96V9jD7iGP?usp=sharing"><img alt="GitHub Contributors" src="https://colab.research.google.com/assets/colab-badge.svg" /></a>
 
 ### 3.模型训练（复现XrayGLM）
 
