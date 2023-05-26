@@ -52,10 +52,11 @@
 
 在上述工作中，报告信息都为非结构化的，不利于科学研究。为了生成合理的医学报告，我们对两个数据集进行了预处理，并最终得到了可以用于训练的**英文报告**。除此之外，为了更好的支持中文社区发展，借助ChatGPT的能力，我们将英文报告进行了中文翻译，并最终形成了可用于训练的数据集。
 
-|数据集|数量|下载链接|
-|:-|:-|:-|
-|MIMIC-CXR-zh|-|-|
-|OpenI-zh|6,423|[诊疗报告(英文)](./data/openi-en.json)、[诊疗报告(中文)](./data/Xray/openi-zh.json) 、[X光影像](https://pan.baidu.com/s/13GBsDMKf6xBZBSHpoWH_EA?pwd=k9sh)|
+|数据集|数量|下载链接|质量|
+|:-|:-|:-|:-|
+|MIMIC-CXR-zh|-|-|-|
+|OpenI-zh|6,423|[诊疗报告(英文)](./data/openi-en.json)、[诊疗报告(中文)](./data/Xray/openi-zh.json) 、[X光影像](https://pan.baidu.com/s/13GBsDMKf6xBZBSHpoWH_EA?pwd=k9sh)|低|
+|OpenI-zh-plus|6,423|-|高|
 
 ## 快速上手
 
@@ -75,10 +76,11 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTrans
 ```
 ### 2.模型推理
 
-|模型权重|下载链接|
-|:-|:-|
-|checkpoints-XrayGLM-300|<a href='https://huggingface.co/wangrongsheng/XrayGLM-300'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|
-|checkpoints-XrayGLM-3000|-|
+|模型权重|下载链接||
+|:-|:-|:-|
+|checkpoints-XrayGLM-300|<a href='https://huggingface.co/wangrongsheng/XrayGLM-300'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|低|
+|checkpoints-XrayGLM-3000|-|低|
+|checkpoints-XrayGLM-xxx-plus|-|高|
 
 CLI推理：
 ```python
@@ -109,6 +111,8 @@ bash finetune_XrayGLM.sh
 ### 4.模型训练（通用）
 
 ## 效果展示
+
+*以下效果来自于**低质量**的数据训练和权重
 
 影像诊断：
 |X光影像|诊疗报告(医生)|XrayGLM|
