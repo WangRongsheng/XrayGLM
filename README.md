@@ -17,9 +17,6 @@
       <a href='https://github.com/WangRongsheng/XrayGLM'>
             <img src='https://img.shields.io/badge/Paper-Arxiv-red'>
       </a>
-      <a href='https://github.com/WangRongsheng/XrayGLM'>
-            <img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'>
-      </a>
       <a href="https://github.com/WangRongsheng/XrayGLM">
         <img alt="GitHub Contributors" src="https://colab.research.google.com/assets/colab-badge.svg" />
       </a>
@@ -80,7 +77,7 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTrans
 
 |模型权重|下载链接|
 |:-|:-|
-|checkpoints-XrayGLM-300|-|
+|checkpoints-XrayGLM-300|<a href='https://huggingface.co/wangrongsheng/XrayGLM-300'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|
 |checkpoints-XrayGLM-3000|-|
 
 CLI推理：
