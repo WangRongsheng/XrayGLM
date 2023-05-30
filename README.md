@@ -51,9 +51,9 @@
       </a>
   </p>
 
-|||
-|:-|:-|
-|🌟[【官方视频教程】VisualGLM技术讲解](https://www.bilibili.com/video/BV14L411q7fk/)|🌟[【官方视频教程】XrayGLM微调实践](https://www.bilibili.com/video/BV1Yh4y147gx/)|
+||||
+|:-|:-|:-|
+|🌟[【官方视频教程】ChatGLM-6B 微调：P-Tuning，LoRA，Full parameter](https://www.bilibili.com/video/BV1fd4y1Z7Y5/)|🌟[【官方视频教程】VisualGLM技术讲解](https://www.bilibili.com/video/BV14L411q7fk/)|🌟[【官方视频教程】XrayGLM微调实践](https://www.bilibili.com/video/BV1Yh4y147gx/)|
 
 ## 本文贡献
 
