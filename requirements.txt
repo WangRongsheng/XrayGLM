@@ -4,3 +4,4 @@ torchvision
 transformers>=4.27.1
 mdtex2html
 gradio
+bitsandbytes==0.39.0
