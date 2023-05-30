@@ -95,13 +95,24 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTrans
 |checkpoints-XrayGLM-3000|<a href='https://huggingface.co/wangrongsheng/XrayGLM-3000'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|低|
 |checkpoints-XrayGLM-xxx-plus|-|高|
 
-CLI推理：
+#### CLI推理
+
 ```python
 python cli_demo.py --from_pretrained checkpoints/checkpoints-XrayGLM-3000 --prompt_zh '详细描述这张胸部X光片的诊断结果'
 ```
 更多[参数](https://github.com/WangRongsheng/XrayGLM/blob/main/cli_demo.py#L16)
 
 如果您是**Google Colab Pro**会员，请可以直接在Colab中运行XrayGLM：<a href="https://colab.research.google.com/drive/1aR8SSaseyprsxnor-gDyMo96V9jD7iGP?usp=sharing"><img alt="GitHub Contributors" src="https://colab.research.google.com/assets/colab-badge.svg" /></a>
+
+#### WebUI运行
+
+```python
+python web_demo.py --from_pretrained checkpoints/checkpoints-XrayGLM-3000
+```
+
+此时访问`http://127.0.0.1:7860`即可
+
+![](./assets/images/web_demo.png)
 
 ### 3.模型训练（复现XrayGLM）
 
