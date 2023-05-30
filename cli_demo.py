@@ -40,8 +40,8 @@ def main():
     if args.quant:
         quantize(model.transformer, args.quant)
     
-    if torch.cuda.is_available():
-        model = model.cuda()
+    #if torch.cuda.is_available():
+    #    model = model.cuda()
 
     model.add_mixin('auto-regressive', CachedAutoregressiveMixin())
 
