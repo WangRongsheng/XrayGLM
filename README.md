@@ -89,11 +89,11 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTrans
 ```
 ### 2.模型推理
 
-|模型权重|下载链接|质量|
-|:-|:-|:-|
-|checkpoints-XrayGLM-300|<a href='https://huggingface.co/wangrongsheng/XrayGLM-300'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|低|
-|checkpoints-XrayGLM-3000|<a href='https://huggingface.co/wangrongsheng/XrayGLM-3000'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|低|
-|checkpoints-XrayGLM-xxx-plus|-|高|
+|模型权重|下载链接|质量|微调方法|
+|:-|:-|:-|:-|
+|checkpoints-XrayGLM-300|<a href='https://huggingface.co/wangrongsheng/XrayGLM-300'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|低|LoRA|
+|checkpoints-XrayGLM-3000|<a href='https://huggingface.co/wangrongsheng/XrayGLM-3000'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|低|LoRA|
+|checkpoints-XrayGLM-xxx-plus|-|高|-|
 
 #### CLI推理
 
