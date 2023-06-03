@@ -1,0 +1,27 @@
+export CUDA_VISIBLE_DEVICES=0,1,2,3
+
+python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-24-19-14 --prompt_zh '通过这张胸部X光影像可以诊断出什么？'
+
+python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04 --prompt_zh '详细描述这张胸部X光片的诊断结果'
+
+python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-28-18-02 --prompt_zh '详细描述这张胸部X光片的诊断结果'
+
+python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-28-20-18 --prompt_zh '详细描述这张胸部X光片的诊断结果'
+
+python cli_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-30-17-35 --prompt_zh '详细描述这张胸部X光片的诊断结果'
+
+python web_demo_hf.py --from_pretrained checkpoints/finetune-XrayGLM-05-25-01-04
+
+python web_demo.py --from_pretrained checkpoints/finetune-XrayGLM-05-28-20-18
+
+./data/Xray/2_1.png
+
+./data/Xray/2_2.png
+
+./data/Xray/2882_1.png
+
+./data/Xray/103_2.png
+
+./data/Xray/1914_1.png
+
+详细描述这张胸部X光片的诊断结果
