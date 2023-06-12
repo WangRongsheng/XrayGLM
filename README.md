@@ -138,6 +138,8 @@ bash finetune_XrayGLM.sh
 
 ### 4.模型训练（通用）
 
+[【官方视频教程】XrayGLM微调实践](https://www.bilibili.com/video/BV1Yh4y147gx/)
+
 ## 效果展示
 
 *以下效果来自于**低质量**的数据训练和权重
