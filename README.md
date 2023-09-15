@@ -214,6 +214,8 @@ bash finetune_XrayGLM.sh
 }
 ```
 
+我们的工作被[Evaluating Large Language Models for Radiology Natural Language Processing](https://arxiv.org/abs/2307.13693)引用，希望大家去关注一下相关的工作！
+
 ## 使用许可
 
 此存储库遵循[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) ，请参阅许可条款。
