@@ -1,10 +1,8 @@
-> **Note**
+> [!NOTE]
 >
-> **欢迎关注我们最新的工作：CareLlama (关怀羊驼)，它是一个医疗大语言模型，同时它集合了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展：https://github.com/WangRongsheng/CareLlama**
-> 
-> 在开始看这个项目之前，您应该是保持以学术研究的态度，切不可以实际医疗行为作为评价该项目的标准。我们相信很多事情正是因为有了一步一步的积累才会最终走向成功！
+> Medical VLM is growing rapidly over the past period of time, and we have created the [Medical_NLP](https://github.com/FreedomIntelligence/Medical_NLP) repo to summarize datasets, models, and Benchmarks related to medical VLM, and we hope that this will help you.
 >
-> 为了更好助力中文社区的医学多模态大模型发展，我们特意在该Repo开设了[💬Discussions](https://github.com/WangRongsheng/XrayGLM/discussions) ，帮助大家互相学习。
+> 过去的一段时间，医疗VLM正在快速发展，我们建立了[Medical_NLP](https://github.com/FreedomIntelligence/Medical_NLP) repo用来总结与医疗VLM有关的数据集、模型以及Benchmark，希望这能帮助到你。
 
 ## 介绍
 
